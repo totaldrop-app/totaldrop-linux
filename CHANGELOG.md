@@ -8,7 +8,7 @@ All notable changes to TotalDrop are recorded here. The format follows
 ## [Unreleased]
 
 Entries for the next release are in [changelog.d/](changelog.d/), one file
-per change, and move here when it is released (docs/surec.md).
+per change, and move here when it is released (docs/process.md).
 
 ## [linux-0.3.0-beta.6] - 2026-11-07
 
@@ -249,7 +249,7 @@ per change, and move here when it is released (docs/surec.md).
   contributors can start (#241).
 - **Docs:** SECURITY.md describes how a vulnerability report is handled,
   step by step, and what TotalDrop does and does not protect (#241).
-- **Docs:** docs/mimari.md describes the architecture, and the threat
+- **Docs:** docs/architecture.md describes the architecture, and the threat
   model gains an assurance case: why the security requirements hold
   (#241).
 - **CI:** Line coverage of the protocol crates, the command line and the
@@ -359,7 +359,7 @@ per change, and move here when it is released (docs/surec.md).
   in the `cloudflare` environment. Only what changed is deployed. A probe
   then opens a real WebSocket to each Worker, reaches the rendezvous
   directory without taking a number, and loads the site's pages.
-  docs/surec.md describes the one-time setup and how to roll back (#94).
+  docs/process.md describes the one-time setup and how to roll back (#94).
 
 ### Changed
 
