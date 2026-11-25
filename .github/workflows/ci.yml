@@ -68,6 +68,8 @@ jobs:
         run: python3 -I packaging-common/linux/file-managers/test_totaldrop_nautilus.py
       - name: Verify 16 isolated sub-platform x CPU units
         run: python3 tools/verify-subplatforms.py
+      - name: Verify Linux desktop metadata, Kose SVGs & 16 Node 24 packaging workflows
+        run: python3 tools/verify-linux-desktop-assets.py
 
   qt6-wayland-desktop:
     name: Qt 6 Wayland Desktop (${{ matrix.os }})

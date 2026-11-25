@@ -5,4 +5,8 @@
 # run.sh copies the components under test next to this file.
 module app.totaldrop
 singleton Theme 1.0 Theme.qml
+singleton Strings 1.0 Strings.qml
 ActionCard 1.0 ActionCard.qml
+Mark 1.0 Mark.qml
+VerificationWords 1.0 VerificationWords.qml
+TransferProgress 1.0 TransferProgress.qml

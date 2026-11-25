@@ -12,11 +12,20 @@ QtObject {
     readonly property color raised: "#f0f0f0"
     readonly property color ink: "#202020"
     readonly property color muted: "#707070"
+    readonly property color rule: "#d0d0d0"
     readonly property color accent: "#3daee9"
     readonly property color accentText: "#ffffff"
+    readonly property color mark: "#6D4AE0"
+    readonly property color markOn: "#F4F2FB"
     readonly property int radius: 8
+    readonly property int controlRadius: 6
     readonly property int s8: 8
     readonly property int s16: 16
     readonly property int s24: 24
     readonly property int s40: 40
+    property bool reducedMotion: false
+
+    function icon(name, kdeName) {
+        return ""
+    }
 }
